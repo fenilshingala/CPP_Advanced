@@ -1,0 +1,14 @@
+Templetize lazy copy assignment.
+
+Implement 1-1 friendship for stream insertion operator (20% of the grade)
+    class Proxy {
+        public:
+            friend std::ostream& operator<< ( std::ostream &out, Proxy<DataType> const& proxy );
+
+        private:
+
+    };
+
+ALL IMPLEMENTATION in array.cpp (30% of the grade).
+
+I'll have TA to go over submissions and take points off for the above 2 requiremenets.

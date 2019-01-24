@@ -1,0 +1,7 @@
+Ray  origin(0,0), direction ( 1,0)
+================
+Box( center (3,2), sides (2,2) ): first check intersection with a bounding circle - false, skip shape-intersection test
+Box( center (6,-4), sides (6,6) ): first check intersection with a bounding circle - true, make shape-intersection test - false
+Rhombus( center (12,-2), diagonals (4,4) ): first check intersection with a bounding circle - true, make shape-intersection test - true, t = 12
+Box( center (10,3), sides (4,4) ): first check intersection with a bounding circle - false, skip shape-intersection test
+Rhombus( center (20,5), diagonals (12,12) ): first check intersection with a bounding circle - true, make shape-intersection test - true, t = 19

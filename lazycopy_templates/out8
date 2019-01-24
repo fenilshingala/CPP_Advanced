@@ -1,0 +1,70 @@
+create empty array
+-------------------
+create copy 
+another copy
+  pos   array  array2  array3
+    0       2       2       2
+    1       3       3       3
+    2       4       4       4
+    3       5       5       5
+    4       6       6       6
+    5       7       7       7
+-------------------
+modify original (should cause deep copy)
+Integer default ctor (-10)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer assignment (0<--2)
+Integer assignment (0<--3)
+Integer assignment (0<--4)
+Integer assignment (0<--5)
+Integer assignment (0<--6)
+Integer assignment (0<--7)
+Integer assignment (0<--0)
+Integer assignment (5<---10)
+  pos   array  array2  array3
+    0       2       2       2
+    1       3       3       3
+    2       4       4       4
+    3     -10       5       5
+    4       6       6       6
+    5       7       7       7
+modify original again (NO deep copy this time )
+Integer default ctor (-10)
+Integer assignment (4<---10)
+  pos   array  array2  array3
+    0       2       2       2
+    1       3       3       3
+    2     -10       4       4
+    3     -10       5       5
+    4       6       6       6
+    5       7       7       7
+modify copy (should cause deep copy, array2 ref counter is 2 - shared with array3)
+Integer default ctor (1000)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer assignment (0<--2)
+Integer assignment (0<--3)
+Integer assignment (0<--4)
+Integer assignment (0<--5)
+Integer assignment (0<--6)
+Integer assignment (0<--7)
+Integer assignment (0<--0)
+Integer assignment (3<--1000)
+  pos   array  array2  array3
+    0       2       2       2
+    1       3    1000       3
+    2     -10       4       4
+    3     -10       5       5
+    4       6       6       6
+    5       7       7       7

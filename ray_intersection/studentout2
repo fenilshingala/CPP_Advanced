@@ -1,0 +1,4 @@
+Intersect bounding circle center (4,4), radius 4.24264 and ray  origin(0,0), direction ( 1,0) - true
+intersect shape Box( center (4,4), sides (6,6) ) and ray  origin(0,0), direction ( 1,0) - false
+Intersect bounding circle center (10,0), radius 2.82843 and ray  origin(0,0), direction ( 1,0) - true
+intersect shape Box( center (10,0), sides (4,4) ) and ray  origin(0,0), direction ( 1,0) - true, t = 8

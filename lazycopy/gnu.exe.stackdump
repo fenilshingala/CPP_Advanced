@@ -1,0 +1,6 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=20014D24
+eax=00000006 ebx=611E7F32 ecx=20014CF0 edx=0061CC78 esi=0000000A edi=0061CC28
+ebp=0000000D esp=0061CC30 program=C:\Users\Fenil\Documents\Digipen\CS525\lazycopy-files\gnu.exe, pid 2852, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args

@@ -1,0 +1,4 @@
+create empty array
+create shallow copy array2
+access aroginal (read), no deep copy required
+array[5] = 7

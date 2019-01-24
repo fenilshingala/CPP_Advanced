@@ -1,0 +1,7 @@
+***** Min3 *****
+(login) jdoe, (age) 20, (year) 3, (GPA) 3.82
+(login) fbar, (age) 22, (year) 1, (GPA) 1.28
+(login) wxyz, (age) 19, (year) 3, (GPA) 1.59
+(login) abcd, (age) 20, (year) 1, (GPA) 1.99
+(login) jbar, (age) 22, (year) 2, (GPA) 3.38
+The min element is: (login) fbar, (age) 22, (year) 1, (GPA) 1.28

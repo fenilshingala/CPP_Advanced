@@ -1,0 +1,4 @@
+Ray  origin(0,0), direction ( 1,0)  The first intersection is at t = 12
+Ray  origin(1,1), direction ( 1,0)  The first intersection is at t = 1
+Ray  origin(8,8), direction ( 0,-1)  The first intersection is at t = 3
+Ray  origin(24,13), direction ( -1,-1)  The first intersection is at t = 3

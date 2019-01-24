@@ -1,0 +1,4 @@
+create empty array
+create const copy array
+array_const[3] is 5
+array_const[5] is 7

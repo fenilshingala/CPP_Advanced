@@ -1,0 +1,31 @@
+dynamically allocate empty array and initialize it
+-------------------
+create copy on stack
+  pos p_array  array2
+    0       2       2
+    1       3       3
+    2       4       4
+    3       5       5
+    4       6       6
+    5       7       7
+delete dynamically allocated array
+check stack array is good, modify and print
+  pos  array2
+Integer default ctor (100)
+Integer assignment (2<--100)
+    0     100
+Integer default ctor (101)
+Integer assignment (3<--101)
+    1     101
+Integer default ctor (102)
+Integer assignment (4<--102)
+    2     102
+Integer default ctor (103)
+Integer assignment (5<--103)
+    3     103
+Integer default ctor (104)
+Integer assignment (6<--104)
+    4     104
+Integer default ctor (105)
+Integer assignment (7<--105)
+    5     105

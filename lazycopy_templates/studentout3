@@ -1,0 +1,19 @@
+create empty array
+create Integer(6)
+Integer default ctor (6)
+insert Integer(6) at 3 and 5
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer assignment (0<--6)
+Integer assignment (0<--6)
+array[0] = 0
+array[1] = 0
+array[2] = 0
+array[3] = 6
+array[4] = 0
+array[5] = 6

@@ -1,0 +1,28 @@
+create empty array
+create Integer(1)
+Integer default ctor (1)
+insert Integer(1) at 1
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer assignment (0<--1)
+array = 0 1 0 
+create Integer(2)
+Integer default ctor (2)
+insert Integer(2) at 5
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer default ctor (0)
+Integer assignment (0<--0)
+Integer assignment (0<--1)
+Integer assignment (0<--0)
+Integer assignment (0<--2)
+array = 0 1 0 0 0 2 0 0 0 0 0 

@@ -1,0 +1,5 @@
+***** TestSwap2 *****
+s1: (login) jdoe, (age) 20, (year) 3, (GPA) 3.82
+s2: (login) fbar, (age) 22, (year) 1, (GPA) 1.28
+s1: (login) fbar, (age) 22, (year) 1, (GPA) 1.28
+s2: (login) jdoe, (age) 20, (year) 3, (GPA) 3.82
